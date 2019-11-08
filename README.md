@@ -1,7 +1,9 @@
 # ttykeyboards.com
 
-A website to follow project development. This website is a fork of [Reverie](https://github.com/amitmerchant1990/reverie), a Jekyll theme.
+A website to follow project development. This website is a .
 
-## License
+## License & Credits
 
-MIT
+- MIT licensing, see [/LICENSE](/LICENSE) for more details.
+- Fork of [Reverie](https://github.com/amitmerchant1990/reverie), a Jekyll theme.
+- Thanks to [Katerina Limpitsouni](https://twitter.com/ninalimpi) for the great art.
