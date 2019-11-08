@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  Prototype: Pay Respect
+title: Pay Respect
+categories:[prototype]
 ---
 
 <div class="header-image-container"><img src="/images/tty_respect.jpg" /></div>
