@@ -2,11 +2,10 @@
 layout: default
 ---
 
-
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post detailed">
-      <h1>{{ page.title }}</h1>
+      <h1>{{ post.title }}</h1>
       <div>
         <p class="author_title">{{site.author}}  ·  {{ post.date | date: "%B %e, %Y" }}</p>
         <div class="post-tags">
