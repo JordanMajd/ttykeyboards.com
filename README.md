@@ -1,6 +1,6 @@
 # ttykeyboards.com
 
-A website to follow project development. This website is a .
+A website to follow project development.
 
 ## License & Credits
 
