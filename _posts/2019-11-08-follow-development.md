@@ -1,9 +1,25 @@
 ---
 layout: post
-title:  Follow Development
+title:  About
 ---
 
-Subscribe to follow development of a bluetooth enabled, wirelessly charging mechanical keyboard. 
+<div class="header-image-container"><img src="/images/tty_respect.jpg" /></div>
+
+I've wanted to design a bluetooth mech keeb for a while; wasn't sure how realistic it would be. Figured a 1 key prototype would be a good jumping off point. Still has a lot of work to be done, but it works.
+
+## Features
+
+- USB C
+- BLE 5.0
+- Long lasting LIPO battery
+- Wireless Qi charging
+- Kailh Gold Speed switch
+- ffffff
+
+## Follow Development
+
+
+Subscribe to follow development: 
 
 <div id="mc_embed_signup">
 <form action="https://madtitanstudios.us5.list-manage.com/subscribe/post?u=472811eb997f37635c3df5cea&amp;id=90a2045a4f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -21,3 +37,8 @@ Subscribe to follow development of a bluetooth enabled, wirelessly charging mech
     </div>
 </form>
 </div>
+
+
+## Roadmap
+
+- TBD
