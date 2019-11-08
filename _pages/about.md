@@ -4,26 +4,19 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+![Picture of 1 button keyboard](/images/tty_respect.jpg)
+
+I've wanted to design a bluetooth mech keeb for a while; wasn't sure how realistic it would be. Figured a 1 key prototype would be a good jumping off point. Still has a lot of work to be done, but it works.
 
 ## Features
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+- USB C
+- BLE 5.0
+- Long lasting LIPO battery
+- Wireless Qi charging
+- Kailh Gold Speed switch
+- ffffff
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+## Roadmap
+
