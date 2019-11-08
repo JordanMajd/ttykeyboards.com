@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Follow Development
-categories: [HTML,Code]
 ---
 
 Subscribe to follow development of a bluetooth enabled, wirelessly charging mechanical keyboard. 
@@ -18,7 +17,7 @@ Subscribe to follow development of a bluetooth enabled, wirelessly charging mech
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_472811eb997f37635c3df5cea_90a2045a4f" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Follow" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear"><input type="submit" value="Follow" name="subscribe" id="mc-embedded-subscribe" class="btn-subscribe"></div>
     </div>
 </form>
 </div>
