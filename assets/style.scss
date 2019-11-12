@@ -503,6 +503,14 @@ footer {
 }
 
 
+.home-hero {
+  width: 100%;
+}
+
+.home-not-hero {
+  width: 50%;
+}
+
 @media (min-width: 769px){
   .home>h2::before, .home>h2::after {
       content: "";
