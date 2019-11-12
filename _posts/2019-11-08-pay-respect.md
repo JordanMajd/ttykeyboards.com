@@ -6,7 +6,7 @@ image: /images/tty_respect.jpg
 ---
 
 
-I've wanted to design a bluetooth mech keeb for a while; wasn't sure how realistic it would be. Figured a 1 key prototype would be a good jumping off point. Still has a lot of work to be done, but it works.
+I've wanted to design a bluetooth mechanical keyboard for a while; wasn't sure how realistic it would be. Figured a 1 key prototype would be a good jumping off point. Still has a lot of work to be done, but it works.
 
 
 ## PoC Features
