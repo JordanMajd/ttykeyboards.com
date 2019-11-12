@@ -14,6 +14,12 @@ This assumes you already have `git` and `ruby` installed:
 1. Run: `jekyll serve`
 1. Open up browser to `localhost:4000`
 
+
+## Roadmap
+
+- Consider using [TinyLetters](tinyletter.com) instead of mailchimp.
+- Update 404 image
+
 ## Resources
 
 - [Jekyll](https://jekyllrb.com/)

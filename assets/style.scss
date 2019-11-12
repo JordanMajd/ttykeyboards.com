@@ -752,8 +752,8 @@ Modules - reusable parts of our design
   }
 }
 
-.tlemail {
-  width: 80%;
+.sub-input {
+  width: 69%; // borders = 2px
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -762,47 +762,23 @@ Modules - reusable parts of our design
   box-sizing: border-box;
 }
 
-.subscribeBtn {
+.sub-btn {
   width: 30%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 11pt;
-}
-
-.tinyletterForm {
-  border: 1px solid #ccc;
-  padding: 3px;
-  text-align: center;
-  background: #ececec;
-  margin: 8px;
-  border-radius: 5px;
-}
-
-.btn-subscribe {
   line-height: 20px;
   text-decoration: none;
-  background: #00000015;
+  background: #EEEEEE;
   border: none;
-  font-size: 12px;
-  padding: 0px 7px;
+  font-size: 14px;
+  padding: 12px 20px;
   display: inline-block;
   border-radius: 4px;
-  position: relative;
-  top: -1px;
-  margin-left: 5px;
+}
+
+.sub-btn:hover {
   color: black;
 }
 
-.btn-subscribe:hover {
-  color: black;
-}
-
-.btn-subscribe > svg {
+.sub-btn > svg {
   width: 21px;
   height: 21px;
   vertical-align: bottom;

@@ -25,15 +25,17 @@
             </div>
 
             <nav>
-              <!-- <a href="{{ site.baseurl }}/">Home</a>
-              <a href="{{ site.baseurl }}/">About</a> -->
+              <a href="{{ site.baseurl }}/">Home</a>
+              <a href="{{ site.baseurl }}/posts/">Newsfeed</a>
             </nav>
           </header>
         </div>
       </div>
 
       <div class="wrapper-main">
+        
         <div id="main" role="main" class="container">
+          {% include subscribe.html %}
           {{ content }}
         </div>
       </div>
