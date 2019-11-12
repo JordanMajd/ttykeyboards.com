@@ -451,7 +451,11 @@ nav {
 
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-top: 20px;
+  padding-bottom: 10px;
   text-align: center;
   background-color: $lightGray;
   P {
