@@ -19,11 +19,14 @@ layout: default
       {% endfor %}
     </div>
   </div>
+
+  {% if page.image %}
+    <div class="post-image-container">
+      <img src="{{ page.image }}" />
+    </div>
+  {% endif %}
     
   <div class="entry">
-    {% if page.image %}
-      <div class="header-image-container"><img src="{{ page.image }}" /></div>
-    {% endif %}
     {{ content }}
   </div>
 
