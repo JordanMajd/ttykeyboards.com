@@ -18,7 +18,6 @@ This assumes you already have `git` and `ruby` installed:
 ## Roadmap
 
 - Consider using [TinyLetters](tinyletter.com) instead of mailchimp.
-- Update 404 image
 
 ## Resources
 
