@@ -803,7 +803,7 @@ Modules - reusable parts of our design
 }
 
 .sub-input {
-  width: 69%; // borders = 2px
+  width: 68%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -814,14 +814,15 @@ Modules - reusable parts of our design
 
 .sub-btn {
   width: 30%;
+  padding: 12px 20px;
   line-height: 20px;
   text-decoration: none;
   background: #EEEEEE;
-  border: none;
   font-size: 14px;
-  padding: 12px 20px;
   display: inline-block;
+  border: none;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .sub-btn:hover {
