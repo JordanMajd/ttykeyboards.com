@@ -1,0 +1,51 @@
+---
+layout: home
+---
+{% capture index_content %}
+<section>
+  <!-- <img class="home-not-hero" src="/images/keyboard-regular.svg" alt="Keyboard icon by Font Awesome, more info in footer"/><img class="home-not-hero" src="/images/keyboard-solid.svg" alt="Keyboard icon by Font Awesome, more info in footer"/> -->
+  <h1><i class="fas fa-keyboard fa-5x"></i>*<i class="far fa-keyboard fa-5x"></i></h1>
+  <h3>Say Goodbye to Wires</h3>
+  <p class="center">tty is on a mission to build an opensource, wire-free mechanical keyboard.</p>
+</section>
+
+<section>
+<h2>Features</h2>
+  <div class="home-row">
+    <div class="home-feature three">
+      <h3><i class="fab fa-bluetooth-b fa-2x"></i></h3>
+      <p>BLE 5.0</p>
+    </div>
+    <div class="home-feature three">
+      <h3><i class="fas fa-wifi fa-2x"></i></h3>
+      <p>Qi Charging</p>
+    </div>
+    <div class="home-feature three">
+      <h3><i class="fab fa-usb fa-2x"></i></h3>
+      <p>USB C</p>
+    </div>
+  </div>
+  <div class="home-row">
+    <div class="home-feature one">
+      <ul>
+        <li>Mechanical Switches</li>
+        <li>NKRO</li>
+        <li>Fully Programmable</li>
+        <li>NFC Pairing</li>
+        <li>Over the Air Firmware Updates</li>
+        <li>AFK Autosleep</li>
+        <li>Long Lasting LiPo Battery</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+<h2>Latest News</h2>
+{% for post in site.posts limit:1 %}
+  {% include post_preview.html %}
+{% endfor %}
+</section>
+{% endcapture %}
+{% assign split_content = index_content | newline_to_br | split: '<br />' %}
+{% for line in split_content %}{{line|strip}}{% endfor %}

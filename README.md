@@ -29,3 +29,4 @@ This assumes you already have `git` and `ruby` installed:
 - MIT, see [/LICENSE](/LICENSE) for more details.
 - Fork of [Reverie](https://github.com/amitmerchant1990/reverie) by @amitmerchant1990.
 - Thanks to [Katerina Limpitsouni](https://twitter.com/ninalimpi) for the great art.
+- Thanks to [Font Awesome](https://fontawesome.com/) for the awesome icons, licensed under the [Creative Commons Attribution 4.0 International license](https://fontawesome.com/license).

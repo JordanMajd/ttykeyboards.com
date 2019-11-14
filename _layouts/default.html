@@ -5,6 +5,7 @@
     {% seo %}
     {% include meta.html %}
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
+    <link  rel="stylesheet" type="text/css" href="/assets/all.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <meta name="theme-color" content="#000000">
@@ -35,13 +36,18 @@
       <div class="wrapper-main">
         
         <div id="main" role="main" class="container">
+          {% capture subscribe_content %}
           {% include subscribe.html %}
+          {% endcapture %}
+          {% assign split_content = subscribe_content | newline_to_br | split: '<br />' %}
+          {% for line in split_content %}{{line|strip}}{% endfor %}
           {{ content }}
         </div>
       </div>
       <footer class="footer">
         <p>"The proletarians have nothing to loose but their wires. They have a world to win." - Keeb Marx, The Typist Manifesto.</p>
         {% include svg-icons.html %}
+        <a src="https://github.com/JordanMajd/ttykeyboards.com#license--credits">Credits & Licenses</a>
         <p>&copy; 2019 Jordan Majd</p>
       </footer>
     </div>
