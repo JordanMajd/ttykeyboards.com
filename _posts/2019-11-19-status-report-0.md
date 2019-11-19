@@ -16,7 +16,7 @@ The results are in, it is feasible but it will take blood, toil, tears, and keyc
 With every objective for the proof of concept checked off, I'm taking another step forward:
 
 - Hack together a keyboard prototype with off the shelf parts that demonstrates 3 core features: BLE HID, USB HID, Qi Charging.
-- Check back in with the community to check for further interest in addition to directional feedback.
+- Check back in with the community to further assess interest in addition to directional feedback.
 
 So where am I on that prototype?
 
