@@ -40,12 +40,33 @@ layout: home
   </div>
 </section>
 
+<!-- <section>
+  <h2>Roadmap</h2>
+  <h4>Stage One: Research</h4>
+  <ol>
+    <li>Build Proof of Concept</li>
+    <li>Assess available MCUs</li>
+    <li>Assess available firmware</li>
+    <li>Assess Market Interest</li>
+  </ol>
+</section> -->
+
 <section>
-<h2>Latest News</h2>
-{% for post in site.posts limit:1 %}
-  {% include post_preview.html %}
-{% endfor %}
+  <h2>Latest News</h2>
+  {% for post in site.posts limit:1 %}
+    {% include post_preview.html %}
+  {% endfor %}
 </section>
+
+
+<section>
+  <h2>FAQ</h2>
+  <ol>
+    <li><b>Why is there no FAQ?</b> <span>Because I haven't made one.</span></li>
+  </ol>
+</section>
+
+
 {% endcapture %}
 {% assign split_content = index_content | newline_to_br | split: '<br />' %}
 {% for line in split_content %}{{line|strip}}{% endfor %}

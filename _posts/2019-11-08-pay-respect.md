@@ -2,7 +2,7 @@
 layout: post
 title: "Proof of Concept: Pay Respect"
 categories: [prototype]
-image: /images/tty_respect.jpg
+image: /images/posts/tty_respect.jpg
 ---
 
 
