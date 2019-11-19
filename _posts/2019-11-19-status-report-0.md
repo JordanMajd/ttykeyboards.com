@@ -8,7 +8,7 @@ image: /images/posts/speed_switches_cropped.jpg
 The goal for the original [proof of concept](/posts/pay-respect/) was to investigate something I've been sitting on for a while,
 
 - How feasible is it to build a wirefree keyboard?
-- Is this something that I want to fully commit to for an extended period of time?
+- Is this something that I want to commit to for an extended period of time?
 - Is there any community interest in a wirefree keyboard, or is it just me?
 
 The results are in, it is feasible but it will take blood, toil, tears, and keycaps to get there. Not only that, but this has become an obsession - it is without a doubt something I want to invest my time in. Further yet, the community welcomed me with an overwhelming positive reception.
