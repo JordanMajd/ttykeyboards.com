@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Status Report"
+title: "Status Report #1"
 categories: [update]
 image: /images/posts/speed_switches_cropped.jpg
 ---
