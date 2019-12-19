@@ -22,7 +22,7 @@ I chose an ortholinear layout for this revision since it would be easier to hand
 
 So what lays ahead? My short term objectives:
 
-Market reserach on what layout to go with for the next prototype. I'm leaning towards a split tenkeyless or a 60/65% - but we'll see what people want the most.
+Market reserach on what layout to go with for the next prototype. I'm leaning towards a split tenkeyless or a 60/65% - but we'll see what people want the most. If you want to let me know I've put together a [google form](https://forms.gle/BnPAt7YkAT69tDKEA).
 
 Shortly after the layout will need to be designed. This will lay a foundation for future case and PCB design.
 
