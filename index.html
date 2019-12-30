@@ -3,11 +3,9 @@ layout: home
 ---
 {% capture index_content %}
 <section>
-  <!-- <img class="home-not-hero" src="/images/keyboard-regular.svg" alt="Keyboard icon by Font Awesome, more info in footer"/><img class="home-not-hero" src="/images/keyboard-solid.svg" alt="Keyboard icon by Font Awesome, more info in footer"/> -->
-  <h1><i class="fas fa-keyboard fa-5x"></i>*<i class="far fa-keyboard fa-5x"></i></h1>
   <h2>Say goodbye to wires</h2>
+  <h3><img class="home-not-hero" src="/images/tty_wirefree_rev1.jpg" alt="Split wireless keyboard"></img></h3>
   <p class="center">tty is building an opensource, wire-free mechanical keyboard.</p>
-
   <div class="home-row">
     <div class="home-feature three">
       <h3><i class="fab fa-bluetooth-b fa-2x"></i></h3>
@@ -22,6 +20,7 @@ layout: home
       <p>USB C</p>
     </div>
   </div>
+
   <div class="home-row">
     <div class="home-feature one">
       <ul>
@@ -41,6 +40,7 @@ layout: home
 
 <section>
   <h2>Latest News</h2>
+
   {% for post in site.posts limit:1 %}
     {% include post_preview.html %}
   {% endfor %}
@@ -49,12 +49,11 @@ layout: home
 
 <section>
   <h2>FAQ</h2>
-  <ol>
-    <li><b>Why is there no FAQ?</b> <span>Because I haven't made one.</span></li>
-  </ol>
+  <ul>
+    <li><b>Is there a project roadmap?</b> <span><a href="/posts/status-report-2/">Status Report #2</a> is the latest roadmap.</span></li>
+    <li><b>How can I follow the project or contribute?</b> <span>You can either subscribe to our <a href="https://mailchi.mp/99f0594eda3d/ttykeyboards">mailing list</a>, follow me on <a href="https://twitter.com/jordanmajd">twitter</a> or <a href="https://discord.gg/B8Zw4wq"> join our Discord.</a></span></li>
+  </ul>
 </section>
-
-
 {% endcapture %}
 {% assign split_content = index_content | newline_to_br | split: '<br />' %}
 {% for line in split_content %}{{line|strip}}{% endfor %}
