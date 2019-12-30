@@ -35,4 +35,4 @@ Next, the following objectives will be prioritized:
 - Prototype Keyboard PCB
 - Design keyboard case
 
-If you'd like to follow the project, contribute, tell me what I'm doing wrong, or join the discussion then [join our Discord](https://discordapp.com/invite/B8Zw4wq) or [subscribe to our mailing list](https://mailchi.mp/99f0594eda3d/ttykeyboards).
+If you'd like to follow the project, contribute, tell me what I'm doing wrong, or join the discussion then [join our Discord](https://discord.gg/uMQxabG) or [subscribe to our mailing list](https://mailchi.mp/99f0594eda3d/ttykeyboards).
